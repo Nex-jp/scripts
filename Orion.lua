@@ -24,16 +24,16 @@ local OrionLib = {
 			TextDark = Color3.fromRGB(150, 150, 150)
 		},
 
-		Test = {
-			Main = Color3.fromRGB(0, 0, 0), -- Preto para o fundo
-			Second = Color3.fromRGB(20, 20, 20), -- Cinza bem escuro para contraste
-			Stroke = Color3.fromRGB(100, 150, 255), -- Azul bebê claro para detalhes
-			Divider = Color3.fromRGB(80, 120, 200), -- Azul bebê mais escuro para divisores
-			Text = Color3.fromRGB(180, 220, 255), -- Azul bebê claro para textos
-			TextDark = Color3.fromRGB(150, 180, 230) -- Azul bebê amarelado para texto secundário
+		Orion_bocchi = {
+			Main = Color3.fromRGB(30, 30, 30)
+			Second = Color3.fromRGB(50, 50, 50)
+			Stroke = Color3.fromRGB(120, 120, 120)
+			Divider = Color3.fromRGB(80, 80, 80)
+			Text = Color3.fromRGB(240, 240, 240)
+			TextDark = Color3.fromRGB(180, 180, 180)
 		}
 	},
-	SelectedTheme = "Test",
+	SelectedTheme = "Orion_bocchi",
 	Folder = nil,
 	SaveCfg = false
 }
