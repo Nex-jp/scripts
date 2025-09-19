@@ -56,7 +56,7 @@ local Modal = Instance.new("TextButton")
 
 local FocusDrag = nil
 
-Orion.Name = "Test_Library"
+Orion.Name = "Test"
 
 getgenv().gethui = function() return CoreGui end
 
